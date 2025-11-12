@@ -1,0 +1,150 @@
+/* img{
+    margin-top: 0px;
+    width: 170px;
+    height: 200px;
+    border-radius: 20px;
+}
+li{
+    list-style: none;
+    background-color: none;
+}
+a{
+    text-decoration: none;
+    color: red;
+}  */
+
+
+/* div{
+    text-align:center;
+}
+.div1{
+    justify-content: space-around;
+    margin-bottom: 40px;
+    display: flex;
+    gap: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+section{
+    text-align: left;
+    margin-left: 20px;
+    background-color: rgb(31, 180, 190);
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+section:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgb(31, 180, 190);
+    transition: 0.5s;
+}
+footer{
+    color: white;
+    background-color: rgb(31, 180, 190);
+    width: 100%;
+    position: absolute;
+    display:flex;
+    justify-content: center;
+    height: 40px;
+}
+h1{
+    color: white;
+}
+#germinaflixh2{
+    display: flex;
+    color: white;
+} */
+/* style do sobre */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #000000;     
+}
+
+header {
+    background-color: #1f1b1b;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.8rem 2.5rem;
+    z-index: 1000;
+}
+
+.Divona {
+    display: flex;
+    align-items: center;
+    border-bottom: #000000;
+}
+
+#logo {
+    margin: 0;
+    width: 6rem;
+    height: auto;
+}
+
+main {
+    padding-top: 9rem;
+}
+
+.rows {
+    padding: 0.5rem 2%;
+    display: flex;
+    gap: 1rem;
+    overflow-x: scroll;
+}
+
+.rows::-webkit-scrollbar {
+    display: none;
+}
+.catalogo_filme{
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2%;
+}
+.filme {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.filme img {
+    width: 10vw;
+    height: 30vh;
+    border-radius: 0.5rem;
+}
+.filme .mais{
+    color: #000000;
+    background-color: rgb(50, 13, 236);
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.filme .ver_filme{
+    color: #ffffff;
+    background-color: rgb(19, 16, 32);
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+footer {
+    background-color: #1f1b1b;
+    color: white;
+    width: 100%;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 8vh;
+}

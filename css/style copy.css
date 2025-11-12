@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;   
+}
+.david{
+    font-size:250px ;
+    margin: 20px;
+    /* justify-content:center; */
+    text-align: center;
+}
+.david span{
+    background-color: aqua;
+    background: url(img/eu.jpg);
+    -webkit-backdrop-clip:text ;
+    -webkit-text-fill-color:transparent ;
+    background-size:cover;
+    background-clip: text;
+    color: transparent;
+    
+}
+.david span:hover{
+
+}
+.titulo{
+    font-size :60px ;
+    background-color: blue;
+
+}
