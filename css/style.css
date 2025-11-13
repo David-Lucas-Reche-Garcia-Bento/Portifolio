@@ -25,6 +25,16 @@ header {
 a{
     color: #ffffff;
 }
+#sobre_mim{
+    background-color:aliceblue;
+    border-radius: 3rem;
+    color: #000000;
+    padding: 0.5%;
+}
+#sobre_mim:hover{
+    transform: translateY(-0.3rem);
+    transition: all ease 0.8s;
+}
 .Divona {
     display: flex;
     align-items: center;

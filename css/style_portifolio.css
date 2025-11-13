@@ -144,13 +144,11 @@ main {
 .caixa_conteudo_ling {
     opacity: 0;
     display: none;
-    transition: all ease 5s;
 }
 
 .caixa:hover .caixa_conteudo_ling {
-    display: block;
-    transition: all ease 5s;
     opacity: 1;
+    display: block;
 }
 
 .compilador {
