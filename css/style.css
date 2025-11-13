@@ -57,6 +57,7 @@ h1{
     color: white;
 } */
 /* style do sobre */
+
 *{
     margin: 0;
     padding: 0;
@@ -93,9 +94,16 @@ header {
     width: 6rem;
     height: auto;
 }
-
+.banner{
+    margin-top: 8rem;
+    background-image: url(/img/filmes/capitao_america_letreiro.png);
+    background-size: cover; /* Faz a imagem cobrir toda a div */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    width: 100%;
+}
 main {
-    padding-top: 9rem;
+    padding:5rem;
 }
 
 .rows {
@@ -116,6 +124,10 @@ main {
 .filme {
     text-decoration: none;
     color: aliceblue;
+}
+.filme a{
+    gap: 2rem;
+
 }
 
 .filme img {
@@ -147,4 +159,5 @@ footer {
     display: flex;
     justify-content: center;
     height: 8vh;
+    bottom: 0;
 }

@@ -6,11 +6,12 @@ body {
 }
 
 header {
-    background-color: rgb(31, 180, 190);
+    background-color: #1f1b1b;
     padding: 0 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 11vh;
 }
 
 header .logo {
@@ -26,23 +27,36 @@ main {
     flex: 1;
 }
 #conteudo{
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    display: block;
+    /* grid-template-columns: 1fr 3fr 1fr; */
     background-color: black;
     padding: 2rem 0rem 1.5rem 0rem;
     height: 100%;
+    align-items: center;
     text-align: left;
+    justify-content: right;
+}
+.conteudo_filme{
+    display: flex;
+    gap: 1rem;
 }
 #conteudo h1{
     width: 25%;
+}
+#conteudo_p{
+    width: 30rem;
 }
 #conteudo_p  p{
     background-color: rgb(87, 83, 83);
     border-radius: 1rem;
     margin: 2rem;
     padding: 3% 5%;
-    height: 50vh;
-    font-size: 1.4rem;
+    height:auto;
+    font-size: 1.2vw;
+}
+#iframe_filme{
+    width: 50rem;
+    height:30rem;
 }
 #nota{
     background-color: rgb(72, 112, 115);
@@ -50,8 +64,14 @@ main {
     border: rgb(31, 180, 190) solid;
     height: 3rem;
     padding-bottom: 1px;
-    width: 6rem;
+    width: auto;
     border-radius: 1rem 1rem 0 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: right;
+    margin-left:83%;
+    margin-right: 2%;
 }
 #img_conteudo {
     padding: 0.1rem;
@@ -70,7 +90,7 @@ main {
 
 footer {
     color: white;
-    background-color: rgb(31, 180, 190);
+    background-color: #1f1b1b;
     height: 40px;
     display: flex;
     justify-content: space-between;
