@@ -22,7 +22,9 @@ header {
     padding: 0.8rem 2.5rem;
     z-index: 1000;
 }
-
+a{
+    color: #ffffff;
+}
 .Divona {
     display: flex;
     align-items: center;
