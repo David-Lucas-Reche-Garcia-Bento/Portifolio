@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Condiment&family=Rubik+Puddles&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <title>Portifólio</title>
 </head>
 
@@ -91,7 +93,7 @@
                 </li>
                 <li class="caixa">
                     <div class="caixa_topico">
-                        <img src="/img/icones_programacao/bd.png" alt="bd_img" class="img_linguagens">
+                        <img src="/img/icones_programacao/bd.png" alt="bd_img" class="img_linguagens" id="img_branca">
                         Banco de dados
                     </div>
                     <div class="caixa_conteudo_ling">
@@ -105,7 +107,8 @@
                 </li>
                 <li class="caixa">
                     <div class="caixa_topico">
-                        <img src="/img/icones_programacao/shell_script.png" alt="" class="img_linguagens">
+                        <img src="/img/icones_programacao/shell_script.png" alt="" class="img_linguagens"
+                            id="img_branca">
                         Shell Script
                     </div>
                     <div class="caixa_conteudo_ling">
@@ -136,17 +139,23 @@
             </div>
         </ul>
         <div id="conteudo_main">
-            <ul name="gostos" class="caixa">
-                <h1 class="titulo">Coisas que eu gosto</h1>
-                <li>Comer</li>
-                <li>Reailzar coisas que se tornem empolgantes</li>
-                <li>Comedia</li>
-                <li>Batalha de Rap </li>
-                <li>Codar sites</li>
-                <li>Fazer Códigos</li>
-                <li>fazer coisas novas</li>
-            </ul>
-            <ol name="conheci" class="caixa">
+
+            <section class="gostos" name="gostos">
+                <h2 class="titulo">Coisas que eu gosto</h2>
+                <ul>
+                    <li><i class="fa-solid fa-utensils"></i> Comer</li>
+                    <li><i class="fa-solid fa-rocket"></i> Realizar coisas empolgantes</li>
+                    <li><i class="fa-solid fa-laugh-beam"></i> Comédia</li>
+                    <li><i class="fa-solid fa-microphone"></i> Batalha de Rap</li>
+                    <li><i class="fa-solid fa-code"></i> Codar sites</li>
+                    <li><i class="fa-solid fa-terminal"></i> Fazer códigos</li>
+                    <li><i class="fa-solid fa-lightbulb"></i> Fazer coisas novas</li>
+                    <li><i class="fa-solid fa-heart"></i> Me divertir em familia</li>
+                </ul>
+            </section>
+            <!-- utilizar select para aparecer a o conteudo do titulo? colocar focus? colocar houver? -->
+
+            <!-- <ol name="conheci" class="caixa">
                 <h1 class="titulo">Lugares que já conheci</h1>
                 <div class="caixa_img">
                     <img src="/img/fotos_pessoais/carapicuiba.jpg" alt="carapicuiba" class="fotos">
@@ -155,14 +164,42 @@
                 <li>Praia de lugar algum</li>
 
             </ol>
-            <!-- utilizar select para aparecer a o conteudo do titulo? colocar focus? colocar houver? -->
             <ol name="vontade" class="caixa">
                 <h1 class="titulo">Lugares que quero conhecer</h1>
                 <li>Rodizio de pizza</li>
                 <li>Rodizio de hambúrguer</li>
                 <li>Nova York</li>
                 <li>100% Do Mar</li>
-            </ol>
+            </ol> -->
+            <section class="lugares" name="lugares">
+                <div class="coluna" name="conheci">
+                    <h2>Lugares que já conheci</h2>
+                    <ol>
+                        <li>
+                            <img src="/img/fotos_pessoais/carapicuiba.jpg" alt="Praia de lugar algum">
+                            <span>Carapicuiba</span>
+                        </li>
+                        <li>
+                            <img src="/img/praia.jpg" alt="Praia de lugar algum">
+                            <span>Hopi Hari</span>
+                        </li>
+                        <li>
+                            <img src="/img/praia.jpg" alt="Praia de lugar algum">
+                            <span>Cabreuva</span>
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="coluna" name="vontade">
+                    <h2>Lugares que quero conhecer</h2>
+                    <ul>
+                        <li><i class="fa-solid fa-pizza-slice"></i> Rodízio de pizza</li>
+                        <li><i class="fa-solid fa-burger"></i> Rodízio de hambúrguer</li>
+                        <li><i class="fa-solid fa-city"></i> Nova York</li>
+                        <li><i class="fa-solid fa-water"></i> 100% do mar</li>
+                    </ul>
+                </div>
+            </section>
     </main>
     <hr id="localizador2">
     <div name="resumo" id="resumo" class="caixa">
@@ -202,16 +239,8 @@
 
     </div>
 
-    <div>
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
-    <div>
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
-    </div>
     <hr id="localizador3">
+
 
     <footer>
         <h1 id="Contato">Contato</h1>
